@@ -21,14 +21,7 @@ export default function MosqueMetadata({
             {metadata.name}
           </h2>
           <p className="mt-3 text-xl mx-5 md:mx-0">{metadata.address}</p>
-          <p className="text-xl"><a
-              href={metadata.website}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 hover:underline"
-            >
-              {metadata.website}
-            </a></p>
+          <p className="text-xl">{metadata.website}</p>
         </div>
       </div>
       <div className="md:flex md:mt-4 text-center items-center">
