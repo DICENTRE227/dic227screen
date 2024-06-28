@@ -21,6 +21,15 @@ export default function MosqueMetadata({
         </h2>
         <p className="mt-3 text-xl mx-5 md:mx-0">{metadata.address}</p>
         <p className="text-xl">{metadata.website}</p>
+        
+      </div>
+      <div className="mr-4 flex-shrink-0 self-center">
+       <a
+          href={metadata.donate}
+          className="mt-3 inline-block bg-blue-500 text-white font-bold py-2 px-4 rounded"
+        >
+          Donate
+        </a>
       </div>
     </div>
   )
