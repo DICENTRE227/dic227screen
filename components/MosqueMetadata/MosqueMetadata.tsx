@@ -33,5 +33,14 @@ export default function MosqueMetadata({
         />
       </div>
     </div>
+    <div className="mr-4 flex-shrink-0 self-center md:text-center md:ml-4">
+        <p className="mt-3 text-xl mx-5 md:mx-0">Scan to Donate</p>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          className="m-2 max-w-full lg:max-w-lg max-h-32 mx-auto"
+          src={metadata.donate}
+          alt="QR Code for Donation"
+        />
+      </div>
   )
 }
