@@ -24,12 +24,13 @@ export default function MosqueMetadata({
         
       </div>
       <div className="mr-4 flex-shrink-0 self-center">
-       <a
-          href={metadata.donate}
-          className="mt-3 inline-block bg-blue-500 text-white font-bold py-2 px-4 rounded"
-        >
-          Donate
-        </a>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+         <p className="mt-3 text-xl mx-5 md:mx-0">Scan to Donate</p>
+        <img
+          className="m-2 max-w-full lg:max-w-lg max-h-16 mx-auto"
+          src={metadata.donate}
+          alt=""
+        />
       </div>
     </div>
   )
