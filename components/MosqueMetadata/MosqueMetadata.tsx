@@ -32,8 +32,7 @@ export default function MosqueMetadata({
           alt=""
         />
       </div>
-    </div>
-    <div className="mr-4 flex-shrink-0 self-center md:text-center md:ml-4">
+      <div className="mr-4 flex-shrink-0 self-center md:text-center md:ml-4">
         <p className="mt-3 text-xl mx-5 md:mx-0">Scan to Donate</p>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
@@ -42,5 +41,6 @@ export default function MosqueMetadata({
           alt="QR Code for Donation"
         />
       </div>
+    </div>
   )
 }
