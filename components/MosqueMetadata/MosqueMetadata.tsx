@@ -23,7 +23,10 @@ export default function MosqueMetadata({
         <p className="text-xl">{metadata.website}</p>
         
       </div>
-      <div className="mt-8 text-center">
+      
+    </div>
+    <div className="md:flex text-white text-center md:text-left">
+        <div className="mt-8 text-center">
         <p className="mt-3 text-xl mx-5 md:mx-0">Scan to Donate</p>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
